@@ -6,19 +6,43 @@ body{
 h1{
     font-family: "Big Shoulders Display";
     color: hsl(0, 0%, 95%);
+    margin-left: 1em;
 }
 p{
     font-family: "Lexend Deca";
     color: hsla(0, 0%, 100%, 0.75);
+    flex-wrap: wrap;
+    margin: 2em;
 }
 button{
     background-color: hsl(0, 0%, 95%);
 }
+img{
+    margin-left: 2em;
+    margin-top: 2em;
+}
 .container{
     display: flex;
     flex-direction: row;
-    
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    height: 50%;
+    width: 50%;
 }
 .card{
+    border-radius: 5px;    
+}
+.orange{
+    background-color: hsl(31, 77%, 52%);
+}
+.cyan{
+    background-color: hsl(184, 100%, 22%);
+}
+.darkCyan{
+    background-color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 900){
 
 }
